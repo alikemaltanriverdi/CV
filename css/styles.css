@@ -14,7 +14,6 @@ h1 {
 div {
     margin: 0;
     text-align: center;
-   
 }
 h2{
     color: #66bfbf;
@@ -45,6 +44,10 @@ hr{
     background-color: #E4F9F5;
     position: relative;    
     padding-top: 100px;
+    margin: 0;
+}
+.mountainpic{
+    width: 50%;
 }
 .pro{
     text-decoration: underline;
@@ -96,7 +99,7 @@ hr{
 }
 
 #explanation-of-me{
-    margin-bottom: 50px;
+    margin: auto auto 50px auto;
 }
 
 .butn {
@@ -130,9 +133,8 @@ hr{
 
 .bottom-container{
     background-color: #66BFBF;
-    margin-top: 100px;
+    margin: 100px auto 0 auto;
     padding-top: 25px;
-    margin-bottom: 0;
     padding-bottom: 25px;
 }
 
@@ -145,7 +147,8 @@ hr{
 }
 
 #copy-right{
-    margin-top: 50px;
+    margin: 50 auto auto auto;
+    /* margin-top: 50px; */
     /* padding-bottom: 50px; */
     color: #EAF6F6;
 
