@@ -11,6 +11,15 @@ h1 {
     line-height: 2;
     
 }
+a{
+    font-family: 'Ubuntu', sans-serif;
+    color: #11999E;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: #EAF6F6;
+}
 div {
     margin: 0;
     text-align: center;
@@ -21,20 +30,20 @@ h2{
     font-family: 'Ubuntu', sans-serif;
     font-size: 2.5rem;
     font-weight: normal;
+    padding-bottom: 10px;
 }
 h3{
     color: #66bfbf;
     font-family: 'Ubuntu', sans-serif;
 }
-/* p{
-    text-align: left;
-} */
+p{
+    line-height: 2;
+}
 hr{
-    border-style: none;
-    border-top-style: dotted;
-    border-color: #EAF6F6;
-    border-width: 5px;
-    width: 5%;
+    border: none #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
 }
 #profilepic{
     border-radius: 100%;
@@ -46,33 +55,38 @@ hr{
     padding-top: 100px;
     margin: 0;
 }
-.mountainpic{
+/* .mountainpic{
     width: 50%;
-}
+} */
 .pro{
     text-decoration: underline;
+}
+.intro{
+    margin: auto;
+    text-align: center;
+    width: 30%;
 }
 .top-cloud{
     position: absolute;
     right: 300px;
-    top: 50px;
+    top: 40px;
 
 }
 .bottom-cloud{
     position: absolute;
-    left: 300px;;
+    left: 250px;;
     bottom: 300px;
 }
 
 .middle-container{
-    /* text-align: center; */
+    margin: 100px 0;
 }
 
 .skill-row{
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
-    line-height: 2;
+
 }
 
 .ios-dev{
@@ -101,32 +115,35 @@ hr{
 #explanation-of-me{
     margin: auto auto 50px auto;
 }
+.contact-me{
+    width: 40%;
+    margin: 40px auto 60px;
+}
 
 .butn {
-    background: #66BFBF;
-    background-image: -webkit-linear-gradient(top, #66BFBF, #66BFBF);
-    background-image: -moz-linear-gradient(top, #66BFBF, #66BFBF);
-    background-image: -ms-linear-gradient(top, #66BFBF, #66BFBF);
-    background-image: -o-linear-gradient(top, #66BFBF, #66BFBF);
-    background-image: linear-gradient(to bottom, #66BFBF, #66BFBF);
-    -webkit-border-radius: 13;
-    -moz-border-radius: 13;
-    border-radius: 13px;
-    text-shadow: 2px 3px 3px #666666;
-    font-family: 'Ubuntu', sans-serif;
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
     color: #ffffff;
-    font-size: 19px;
+    font-size: 20px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
   }
   
   .butn:hover {
-    background: #3cb0fd;
-    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
   }
 
@@ -134,22 +151,13 @@ hr{
 .bottom-container{
     background-color: #66BFBF;
     margin: 100px auto 0 auto;
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
-
-.footer-link{
-    padding-left: 30px;
-    color: #11999E;
-}
-.footer-link:hover{
-    color: white;
+    padding: 50px 0 20px;
 }
 
 #copy-right{
-    margin: 50 auto auto auto;
-    /* margin-top: 50px; */
-    /* padding-bottom: 50px; */
+    /* margin: 50 auto auto auto; */
+    padding: 20px 0;
+    font-size: 0.75rem;
     color: #EAF6F6;
 
 }
